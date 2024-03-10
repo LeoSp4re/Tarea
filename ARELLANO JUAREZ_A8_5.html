@@ -1,0 +1,181 @@
+<html>
+<head>
+    <title>Papa's Pizzeria - Opiniones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        .contenido {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        .piedepagina {
+            background-color: #33333383;
+            color: #fdd700;
+            text-align: center;
+            padding: 0.5em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1 a {
+            color: #ffcc00;
+        }
+
+        .opiniones {
+            margin-top: 20px;
+        }
+
+        .opinion {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .opinion h3 {
+            color: #333;
+        }
+
+        .opinion p {
+            color: #666;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        form textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #scrollToTopBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a>Papa's Pizzeria</a></h1>
+        <nav>
+            <ul>
+                <li><a href="ARELLANO JUAREZ_A8_1.html">Inicio</a></li>
+                <li><a href="ARELLANO JUAREZ_A8_2.html">Menu</a></li>
+                <li><a href="ARELLANO JUAREZ_A8_3.html">Promociones</a></li>
+                <li><a href="ARELLANO JUAREZ_A8_4.html">Contacto</a></li>
+                <li><a href="ARELLANO JUAREZ_A8_5.html">Opiniones</a></li>
+                <li><a href="ARELLANO JUAREZ_A8_6.html">Preguntas Frecuentes</a></li>
+                <li><a href="ARELLANO JUAREZ_A8_7.html">Solicitudes De empleo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenido">
+        <h2>Opiniones de Clientes</h2>
+        <div class="opiniones">
+            <div class="opinion">
+                <h3>Juan Malagon</h3>
+                <p>¡La pizza de Papa's Pizzeria es increíble! La masa es perfecta y los ingredientes son frescos. Sin duda, volveré pronto.</p>
+                <h3>Cristiano ronaldo</h3>
+                <p>Buena comida, buen servicio 10 de 10</p>
+                <h3>Lionel messi</h3>
+                <p>Local muy bonito precios correctos deliciosa comida</p>
+                <h3>Sara burgos becerra</h3>
+                <p>Buena pagina web 15 de 15 </p>
+
+            </div>
+        </div>
+
+        <h2>Deja tu Opinión</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="opinion">Opinión:</label>
+            <textarea id="opinion" name="opinion" required></textarea>
+
+            <button type="submit">Enviar Opinión</button>
+        </form>
+    </div>
+
+    <div class="piedepagina">
+        <button onclick="scrollToTop()" id="scrollToTopBtn">Ir arriba</button>
+        <p>&copy; 2024 Papa's Pizzeria</p>
+    </div>
+    <script>
+
+        function scrollToTop() {
+          document.body.scrollTop = 0; 
+          document.documentElement.scrollTop = 0; 
+        }
+      </script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<html>
+<head>
+    <title>Papa's Pizzeria - Solicitudes de Empleo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        .contenido {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: justify;
+            font-weight: bold; /* Todas las letras en negrita */
+        }
+
+        .piedepagina {
+            background-color: #33333383;
+            color: #fdd700;
+            text-align: center;
+            padding: 0.5em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilo para el nombre de la pizzería */
+        h1 a {
+            color: #ffcc00; /* Amarillo */
+        }
+
+        /* Estilo para el formulario */
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+        }
+        #scrollToTopBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <body style="background: url(https://www.yummytakeaways.co.uk/assets/images/customers-bg-desk.png) no-repeat center center fixed; background-size: cover;"></body>
+    <header>
+        <h1><a>Papa's Pizzeria</a></h1>
+        <nav>
+            <ul>a
+                <li><a href="ARELLANO JUAREZ_A8_1.html">Inicio</a></li>
+                <li><a href="ARELLANO JUAREZ_A8_2.html">Menu</a></li>
+                <li><a href="ARELLANO JUAREZ_A8_3.html">Promociones</a></li>
+                <li><a href="ARELLANO JUAREZ_A8_4.html">Contacto</a></li>
+                <li><a href="ARELLANO JUAREZ_A8_5.html">Opiniones</a></li>
+                <li><a href="ARELLANO JUAREZ_A8_6.html">Preguntas Frecuentes</a></li>
+                <li><a href="ARELLANO JUAREZ_A8_7.html">Solicitudes De empleo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenido">
+        <h2><b>Solicitudes de Empleo en Papa's Pizzeria</b></h2>
+        <p><b>¡Únete a nuestro equipo! Estamos buscando personas apasionadas por la pizza y el servicio excepcional.</b></p>
+
+        <h3><b>Puestos Disponibles:</b></h3>
+        <ul>
+            <li><b>Cocinero/a</b></li>
+            <li><b>Repartidor/a</b></li>
+            <li><b>Personal de Atención al Cliente</b></li>
+        </ul>
+
+        <h3><b>Requisitos:</b></h3>
+        <p><b>- Experiencia en la industria de alimentos y bebidas</b></p>
+        <p><b>- Habilidades de trabajo en equipo y atención al cliente</b></p>
+        <p><b>- Disponibilidad de horario</b></p>
+
+        <h3><b>Cómo Aplicar:</b></h3>
+        <p><b>Completa el formulario de solicitud en línea o envía tu currículum a Solicitud@papaspizzeria.com</b></p>
+    </div>
+
+        <form>
+            <label for="nombre"><b>Nombre completo:</b></label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email"><b>Correo electrónico:</b></label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono"><b>Teléfono:</b></label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="mensaje"><b>Mensaje o comentario adicional:</b></label>
+            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+            <input type="submit" value="Enviar Solicitud">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <b>!GRACIAS POR UNIRTE A LA FAMILIA!</b>
+            <br>
+        </form>
+    </div>
+
+    <div class="piedepagina">
+        <button onclick="scrollToTop()" id="scrollToTopBtn">Ir arriba</button>
+        <p>&copy; 2024 Papa's Pizzeria</p>
+    </div>
+    <script>
+
+        function scrollToTop() {
+          document.body.scrollTop = 0; 
+          document.documentElement.scrollTop = 0; 
+        }
+      </script>
+</body>
+</html>
